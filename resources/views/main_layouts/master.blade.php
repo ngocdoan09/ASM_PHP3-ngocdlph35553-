@@ -1,7 +1,7 @@
 <?php
 use Carbon\Carbon;
 use App\Models\Category;
-$now = Carbon::now('Asia/Ho_Chi_Minh')->locale('vi');
+$now = Carbon::now('Asia/Ha_Noi')->locale('vi');
 $categoryFooter = Category::where('name', '!=', 'Chưa phân loại')->withCount('posts')->orderBy('created_at', 'DESC')->take(12)->get();
 
 ?>
@@ -379,22 +379,21 @@ $categoryFooter = Category::where('name', '!=', 'Chưa phân loại')->withCount
                         </a>
                     </p>
                     <p>
-                        <span style="font-size: 14px" class="block">Báo tiếng Việt nhiều người xem nhất</span>
+                        <span style="font-size: 14px" class="block">Báo tiếng Việt </span>
                     </p>
                     <p>
-                        <span style="font-size: 14px" class="block">Thuộc Bộ Khoa học Công nghệ</span>
+                        <span style="font-size: 14px" class="block">Website tin tức</span>
                     </p>
                     <p>
-                        <span style="font-size: 14px" class="block">Số giấy phép: 548/GP-BTTTT ngày 27/06/2022</span>
+                        <span style="font-size: 14px" class="block">Thông tin</span>
                     </p>
                 </div>
                 <div class="col-md-4">
                     <p>
-                        <span style="font-size: 14px" class="block">Tổng biên tập: Nhóm TDQ Hutech</span>
+                        <span style="font-size: 14px" class="block">FPT Polytechnic</span>
                     </p>
                     <p>
-                        <span style="font-size: 14px" class="block">Địa chỉ: E1, Khu Công Nghệ cao, Phường Hiệp Phú,
-                            TP.HCM</span>
+                        <span style="font-size: 14px" class="block">Địa chỉ: Hà Nội</span>
                     </p>
                     <p>
                         <span style="font-size: 14px" class="block">Điện thoại: 0392766630</span>

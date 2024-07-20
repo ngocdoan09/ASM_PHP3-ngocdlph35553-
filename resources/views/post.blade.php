@@ -1,6 +1,6 @@
 @extends('main_layouts.master')
 
-@section('title', $post->title . ' - TDQ ')
+@section('title', $post->title . ' - News ')
 
 @section('custom_css')
     <style>

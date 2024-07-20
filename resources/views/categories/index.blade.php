@@ -1,6 +1,6 @@
 @extends('main_layouts.master')
 
-@section('title', ' TDQ - Danh mục tin tức')
+@section('title', ' News - Danh mục tin tức')
 
 @section('content')
 

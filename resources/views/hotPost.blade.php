@@ -1,5 +1,5 @@
 @extends('main_layouts.master')
-@section('title', 'TDQ - Tin Nóng')
+@section('title', 'News - Tin Nóng')
 
 @section('content')
     <!-- Main Breadcrumb Start -->

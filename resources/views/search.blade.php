@@ -1,5 +1,5 @@
 @extends('main_layouts.master')
-@section('title', $title . ' - TDQ ')
+@section('title', $title . ' - News ')
 
 @section('content')
     <!-- Main Breadcrumb Start -->

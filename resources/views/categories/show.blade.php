@@ -1,6 +1,6 @@
 @extends('main_layouts.master')
 
-@section('title', $category->name . ' - TDQ')
+@section('title', $category->name . ' - News')
 
 @section('content')
 
